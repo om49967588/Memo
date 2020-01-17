@@ -11,7 +11,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var myTable: UITableView!
     @IBOutlet weak var entry: UIButton!
     @IBOutlet weak var mytextv: UITextField!
-    
+    // nmsl
     @IBOutlet weak var delete: UIButton!
     @IBOutlet weak var deleteRow: UITextField!
     @IBOutlet weak var naviGateback: UINavigationItem!
