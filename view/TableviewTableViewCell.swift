@@ -1,23 +1,24 @@
 //
-//  DirectoryCell.swift
+//  TableviewTableViewCell.swift
 //  view
 //
-//  Created by Hung-Ming Chen on 2020/1/17.
+//  Created by zhiheng on 2020/5/5.
 //  Copyright © 2020 imac. All rights reserved.
 //
 
 import UIKit
 
-class DirectoryCell: UITableViewCell{
-    
-    @IBOutlet weak var photoImage: UIImageView!
-    @IBOutlet weak var nameLable: UILabel!
-    
+class TableviewTableViewCell: UITableViewCell {
+
     override func awakeFromNib() {
         super.awakeFromNib()
+        // Initialization code
     }
-    
+
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
     }
+
 }
